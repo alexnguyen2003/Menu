@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+}
+html {
+  font-size: 12px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  min-width: 300px;
+}
+nav li {
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  display: inline-block;
+}
+.navbar_header_menu_list {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+.heading {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar_header_menu_list_iteam {
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+}
+h1 {
+  font-size: 30px;
+}
+ul li::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background:#f44336 ;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+ul li:hover::after{
+  width: 100%;
+}
+ul li:hover ul {
+  display: block;
+}
+.dropdown_iteam {
+  position: absolute;
+  width: 100px;
+  display: none;
+}
+.navbar_header {
+  background-color: hotpink;
+}
+.iteam {
+  background: pink;
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+.link_iteam {
+  display: block !important;
+  font-size: 10px;
+}
+.iteam:hover {
+  background: pink;
+}
+.navbar_header_menu_list_right {
+  display: inline;
+  margin-left: 10%;
+}
+.navber_header input[type="text"] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+.navbar_header_menu_list_iteam input[type="text"] {
+  height: 30px;
+}
+button {
+  width: 40px;
+  cursor: pointer;
+}
+.slide_content_body {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 50px;
+  font-family: "Londrina Outline", cursive;
+  font-family: "Monoton", cursive;
+}
+
+.body_list_iteam {
+  margin-top: 100px;
+  display: inline-block;
+  width: 390px;
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.button_iteam {
+  width: 90px;
+  height: 30px;
+  background-color: pink;
+  color: orangered;
+  border-radius: 10px;
+}
+.name_iteam {
+  margin-top: 10px;
+  padding: 5px;
+  color: orangered;
+  font-size: 20px;
+  font-family: "Passions Conflict", cursive;
+}
+.price {
+  color: orangered;
+  font-size: 20px;
+  font-family: "Passions Conflict", cursive;
+}
+.img_iteam:hover {
+  transform: scale(1.1);
+}
+a :hover {
+  background-color: hotpink;
+}
+.footer {
+  display: flex;
+  font-size: 15px;
+  margin-top: 20px;
+  background-color: hotpink;
+}
+.left_footer {
+  display: block;
+}
+.title_list {
+  list-style: none;
+  font-weight: bold;
+}
+.list_iteam_footer {
+  list-style: none;
+  font-weight: normal;
+  margin-top: 10px;
+}
+.slide_footer_body {
+  margin-top: 100px;
+}
+.list_footer {
+  margin-top: 5px;
+}
+.pagination {
+  margin-top: 30px;
+  margin-left: 40%;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}

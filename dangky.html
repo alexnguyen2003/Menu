@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dangki.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Monoton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header class="heading">
+        <nav class="navbar_header">
+            <ul class="navbar_header_menu_list">
+                <li class="navbar_header_menu_list_iteam"><h1><a href="index.html">HADES</a></h1></li>
+                <li class="navbar_header_menu_list_iteam"><a href="shopall.html">SHOP ALL</a></li>
+                <li class="navbar_header_menu_list_iteam"><a href="top.html">TOPS</a></li>
+                <li class="navbar_header_menu_list_iteam"><a href="bottom.html">BOTTOMS</a></li>
+                <li class="navbar_header_menu_list_iteam"><a href="outerwear.html">OUTERWEAR</a></li>
+                <li class="navbar_header_menu_list_iteam"><a href="footwear.html">FOOTWEAR</a></li>
+                <li class="navbar_header_menu_list_iteam"><a href="hat.html">HAT</a></li>
+                <li class="navbar_header_menu_list_iteam"><a href="bags.html">BAGS</a></li>
+                <li class="navbar_header_menu_list_iteam"><a href="gioithieu.html">GIỚI THIỆU</a></li>
+                <li class="navbar_header_menu_list_iteam">
+                    <a href="#">LIÊN HỆ</a>
+                    <ul class="dropdown_iteam">
+                        <li class="iteam"><a class="link_iteam" href="https://www.facebook.com/profile.php?id=100030553028558">FACEBOOK</a> </li>
+                        <li class="iteam"><a class="link_iteam" href="https://www.instagram.com/nb.hao.2810/">INSTAGRAM</a> </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="navbar_header_menu_list_right">
+                <li class="navbar_header_menu_list_iteam"><a href="dangnhap.html">ĐĂNG NHẬP</a></li>
+                <li class="navbar_header_menu_list_iteam"><a href="dangky.html">ĐĂNG KÍ</a></li>
+                <li class="navbar_header_menu_list_iteam"><input placeholder="search" type="text"></li>
+                <button type="submit"><i class="fa fa-search"></i></button>
+                <li class="navbar_header_menu_list_iteam"><a href="#">GIỎ HÀNG</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="body">
+       <div class="nav_dangki">
+        <form name="dangky" action="dangky.html" class="form_body" onsubmit="KiemTraThongTin();">
+            <legend class="title_dangki">ĐĂNG KÍ</legend>
+            <input name="ho" id="first_name" class="input_ho" type="text" placeholder="Họ"><br>
+            <input name="ten" id="name" class="input_name" type="text" placeholder="Tên"><br>
+            <label class="gioitinhnam" ><input type="radio" name="gioitinh" id="nam">Nam</label>
+            <label class="gioitinhnu" ><input type="radio" name="gioitinh" id="nu">Nữ</label><br>
+            <input type="date" name="txtDate" id="date" ><br>
+            <input type="email" name="txtEmail" id="email" placeholder="email"><br>
+            <input type="password" name="pass" id="password" placeholder="Mật khẩu"><br>
+            <input type="submit" id="submit" value="ĐĂNG KÍ" onclick="KiemTraThongTin();">
+            <div class="footer_form">
+                <a class="link_home" href="index.html">Quay lại trang chủ</a>
+            </div>
+        </form>
+       </div>
+        <div class="slide_footer_body">
+            <marquee behavior="scroll" direction="left" scrolldelay="1">
+                <h1 class="slide_content_body">STREETWEAR BRAND LIMITED</h1>
+                <h1 class="slide_content_body">STREETWEAR BRAND LIMITED</h1>
+                <h1 class="slide_content_body">STREETWEAR BRAND LIMITED</h1>
+                <h1 class="slide_content_body">STREETWEAR BRAND LIMITED</h1>
+                <h1 class="slide_content_body">STREETWEAR BRAND LIMITED</h1>
+                <h1 class="slide_content_body">STREETWEAR BRAND LIMITED</h1>
+            </marquee>
+        </div>
+    </div> 
+    <footer class="footer">
+        <div class="left_footer">
+         <li class="title_list">HỆ THỐNG CỬA HÀNH HADES
+             <ul class="list_iteam_footer">
+                 <li class="list_footer">Hades FLAGSHIP STORE: 69 QUANG TRUNG, GÒ VẤP</li>
+                 <li class="list_footer">Store 2: 26 LÝ TỰ TRỌNG Q.1 ( THE NEW PLAYROUND)</li>
+                 <li class="list_footer">Store 3: 350 ĐIỆN BIÊN PHỦ F17 Q. BÌNH THẠNH (G-TOWN)</li>
+                 <li class="list_footer">Store 4: 4 PHẠM NGŨ LÃO, Q.</li>
+                 <li class="list_footer">Store 5: 136 NGUYỄN HỒNG ĐÀO, Q.TÂN BÌNH</li>
+                 <li class="list_footer">Store 6: 235 PHAN TRUNG, TP.BIÊN HÒA</li>
+                 <li class="list_footer">Store 7: Tầng 7 - tòa B2 - VINCOM BÀ TRIỆU, HÀ NỘI</li>
+             </ul>
+        </div>
+         <div class="center_footer">
+             <li class="title_list">CHÍNH SÁCH
+                 <ul  class="list_iteam_footer">
+                     <li  class="list_footer">Chính sách sử dụng website</li>
+                     <li  class="list_footer">Phương thức thanh toán</li>
+                     <li  class="list_footer">Chính sách đổi trả</li>
+                     <li  class="list_footer">Chính sách giao nhận - vận chuyển</li>
+                     <li  class="list_footer">Điều khoản dịch vụ</li>
+                     <li  class="list_footer">Hướng dẫn mua hàng</li>
+                     <li  class="list_footer">Chính sách bảo mật</li>
+                 </ul>
+         </div>
+         <div class="right_center">
+             <li class="title_list">THÔNG TIN LIÊN HỆ
+                 <ul class="list_iteam_footer">
+                     <li type="-" class="list_footer">CÔNG TY TNHH HADES Địa chỉ: 45 Phan Chu Trinh, P. Bến Thành, Quận 1, TP. Hồ Chí Minh
+                     </li>
+                     <li class="list_footer">SỐ GCNĐKDN: 0316393653</li>
+                     <li class="list_footer">Ngày cấp: 20/07/2020</li>
+                     <li class="list_footer">Tuyển dụng: hr@hades.vn</li>
+                     <li class="list_footer">Website: hades.vn</li>
+                     <li class="list_footer">Liên hệ CSKH: support@hades.vn</li>
+                     <li class="list_footer">For business: contact@hades.vn</li>
+                 </ul>
+         </div>
+     </footer>
+   
+</body>
+</html>
